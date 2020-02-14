@@ -1,0 +1,50 @@
+.App .app {
+  flex: 1;
+  overflow: auto;
+}
+.App .app #list-trips {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.App .app #list-trips li {
+  list-style: none;
+}
+.App .app #list-trips .trip-item {
+  margin: 10px;
+  box-sizing: border-box;
+  border: #eeeeee 1px solid;
+  box-shadow: 0 0 3px #e2cefc;
+  width: 100%;
+}
+.App .app #list-trips .trip-item .trip-info {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.App #trip-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  align-items: flex-start;
+  font-size: 18pt;
+}
+.App #trip-detail .detail-item {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: flex-start;
+  text-align: start;
+}
+.App #trip-detail .detail-item label {
+  width: 120px;
+  font-weight: 500;
+}
+.App #trip-detail .detail-item span {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=component.css.map */

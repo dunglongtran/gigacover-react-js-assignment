@@ -1,0 +1,57 @@
+.App {
+  .app {
+    flex: 1;
+    overflow: auto;
+
+    #list-trips {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      li {
+        list-style: none;
+      }
+
+      .trip-item {
+        margin: 10px;
+        box-sizing: border-box;
+        border: #eeeeee 1px solid;
+        box-shadow: 0 0 3px #e2cefc;
+        width: 100%;
+
+        .trip-info {
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+        }
+      }
+    }
+
+  }
+
+  #trip-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    align-items: flex-start;
+    font-size: 18pt;
+    .detail-item{
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      align-items: flex-start;
+      text-align: start;
+      label{
+        width: 120px;
+        font-weight: 500;
+      }
+      span{
+        margin-left: 10px
+      }
+    }
+
+  }
+}
